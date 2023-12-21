@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="users" id="usersDiv">
+            
+        </div>
+    </section>
+    
+    <div class="container" id="cont">
+        <div class="wrapper" id="wrap">
+            <form action="none" class="action" id="form" method="POST">
+
+                <p class="register">Register</p>
+
+                <label for="username"></label>
+                <input type="text" id="user_name" name="username" placeholder="Username" oninput="filterUsers()"><br><br>
+                <ul id="ul"></ul>
+                <p id="id-username"></p>
+                
+                <label for="password"></label>
+                <input type="password" id="pass" name="password" placeholder="Password">
+                <i class="fa-solid fa-eye-slash"></i><br><br>
+                <p id="id-password"></p>
+                
+                
+                <label for="rep_password"></label>
+                <input type="password" id="rep_pass" name="repeatPassword" placeholder="Repeat Password"><br><br>
+                <p id="id-repeatPassword"></p>
+                
+                <label for="mail"></label>
+                <input type="email" id="mail" name="email" placeholder="Email"><br><br>
+                <p id="id-mail"></p>
+                
+                <label for="checkbox"></label>
+                <input type="checkbox" id="checker" name="checkbox"><span class="check-text">Terms and Conditions</span><br><br>
+                <p id="id-checkbox"></p>
+                
+                <input type="submit" value="Submit" id="btn"><br><br>
+            </form>
+            <a href="www.google.com">
+                <button id="google">Sign Up with Google<img id="google-logo" src="../images/google.png"></button>
+            </a>
+        </div>
+
+        <div class="photo-wrap">
+            <img src="../images/game.jpg" alt="gaming" class="game-img">
+        </div>
+    </div>
+
+    <script src="../javascript/script.js"></script>
+    <script src="https://kit.fontawesome.com/ea5a8a9905.js" crossorigin="anonymous"></script>
+</body>
+</html>
